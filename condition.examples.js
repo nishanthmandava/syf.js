@@ -1,13 +1,13 @@
 // find the given number is odd or even
 n = 11
-console.log(n%2);
+console.log(n % 2);
 
-console.log(n%2==0);
+console.log(n % 2 == 0);
 
-if(n%2==1){ //if block
+if (n % 2 == 1) { //if block
     console.log("odd number");
 }
-else{ //else block
+else { //else block
     console.log("even number");
 }
 
@@ -27,12 +27,27 @@ else{ //else block
 let x = 20;
 let y = 20;
 
-if (x>y){
+if (x > y) {
     console.log("x is greater");
-}else if (y>x){
+} else if (y > x) {
     console.log("y is greater");
-}else {
+} else {
     console.log("both are equal");
 }
 
-
+//switch case
+let statecode = "tn"
+switch (statecode) {
+    case "ts":
+        console.log("hyderabad");        
+        break;
+    case "tn":
+        console.log("chennai");
+        break;
+    case "ka":
+        console.log("bangalore");
+        break;
+    default:
+        console.log("statecode not found");        
+        break;
+}
