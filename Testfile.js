@@ -1,4 +1,6 @@
 
-for (let X=11;X>1;X--) {
-        console.log(X);
+    let data = [1,2,3,4,5];
+    for (let i=0;i<data.length;i++) {
+        console.log(data[i]);
     }
+

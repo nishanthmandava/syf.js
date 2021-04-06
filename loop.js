@@ -17,7 +17,12 @@ for(let c=11;c<=20;c+=2){ //c+=2 = c=c+2
     console.log(c);
 }
 
-for (let X = 11; X < 1; X-3) {
-    console.log(x);
-        
-}
+//reverse order
+for (let X=11;X>1;X--) {
+        console.log(X);
+    }
+
+   for (let X=11;X>1;X-=3) {
+        console.log(X);
+    }
+ 
