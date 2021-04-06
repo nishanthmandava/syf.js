@@ -26,3 +26,33 @@ for (let X=11;X>1;X--) {
         console.log(X);
     }
  
+
+    //multiple 
+        let data = [1,2,3,4,5];
+    for (let i=0;i<data.length;i++) {
+        console.log(data[i]);
+    }
+
+
+    
+let den = [2000, 500, 200, 100, 50, 20, 10, 5, 2, 1]
+let amount = 9999
+
+let r = amount / den[0]
+console.log(r);
+
+amount = amount % den [1]
+
+console.log(amount);
+
+
+
+//find odd number in range
+
+for (let n =1;n <=100; n++){
+    if (n % n ==0){
+        console.log(n + " is a prime number");
+        
+    }
+}
+

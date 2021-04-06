@@ -1,6 +1,7 @@
-
-    let data = [1,2,3,4,5];
-    for (let i=0;i<data.length;i++) {
-        console.log(data[i]);
-    }
-
+let n1 = 5;
+let res = 1;
+for(let i=1;i<=5; i++){
+    res = res*i
+    console.log(res);
+    
+}
