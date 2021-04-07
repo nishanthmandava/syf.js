@@ -6,7 +6,7 @@ function findFactorial(n){
     }
     return res;
 }
-let r = findFactorial(10)
-console.log("The factorial value is" +r);
+let r = findFactorial(3)
+console.log("The factorial value is" + r);
 
 

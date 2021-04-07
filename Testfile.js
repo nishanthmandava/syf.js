@@ -1,7 +1,6 @@
-let n1 = 5;
-let res = 1;
-for(let i=1;i<=5; i++){
-    res = res*i
-    console.log(res);
-    
+for (let n =1;n <=100; n++){
+    if (n % n ==0){
+        console.log(n + " is a prime number");
+        
+    }
 }
