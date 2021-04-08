@@ -4,10 +4,12 @@ let states = ["ts", "ap", "ka", "dl", "mh"];
 console.log(isValueExist(states, "dl"));
 console.log(isValueExist(states, "kl"));
 console.log(isValueExist(states, "ts"));
+console.log(isValueExist(states, "ka"));
+console.log(isValueExist(states, "wb"));
 
 function isValueExist(lstData, exp) {
 
-    let isValueFound=false; //flagging
+    let isValueFound = false; //flagging
     for (let i = 0; i < lstData.length; i++) {
         if (lstData[i] == exp) {
             isValueFound = true;
