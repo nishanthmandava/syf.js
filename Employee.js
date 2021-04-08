@@ -1,5 +1,7 @@
+  
+
 class Employee{
-    #age=30; //private 
+    #age=30; //# represents private variable
 
     getAge(){ // getter : used to return value of a private field
         return this.#age;
